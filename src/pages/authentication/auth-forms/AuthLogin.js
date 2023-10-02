@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-// import Forgotpassword from '../Forgetpassword';
-
 // material-ui
 import {
   Button,
-  Checkbox,
+  // Checkbox,
   // Divider,
-  FormControlLabel,
+  // FormControlLabel,
   FormHelperText,
   Grid,
   Link,
@@ -15,8 +13,8 @@ import {
   InputAdornment,
   InputLabel,
   OutlinedInput,
-  Stack,
-  Typography
+  Stack
+  // Typography
 } from '@mui/material';
 
 // third party
@@ -33,7 +31,7 @@ import { EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons';
 // ============================|| FIREBASE - LOGIN ||============================ //
 
 const AuthLogin = () => {
-  const [checked, setChecked] = React.useState(false);
+  // const [checked, setChecked] = React.useState(false);
 
   const [showPassword, setShowPassword] = React.useState(false);
   const handleClickShowPassword = () => {
@@ -128,7 +126,7 @@ const AuthLogin = () => {
 
               <Grid item xs={12} sx={{ mt: -1 }}>
                 <Stack direction="row" justifyContent="space-between" alignItems="center" spacing={2}>
-                  <FormControlLabel
+                  {/* <FormControlLabel
                     control={
                       <Checkbox
                         checked={checked}
@@ -139,7 +137,7 @@ const AuthLogin = () => {
                       />
                     }
                     label={<Typography variant="h6">Remember me</Typography>}
-                  />
+                  /> */}
                   <Link variant="h6" component={RouterLink} to="/forgetpassword" color="primary">
                     Forgot Password?
                   </Link>
