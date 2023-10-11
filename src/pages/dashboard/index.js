@@ -342,3 +342,36 @@ const DashboardDefault = () => {
 };
 
 export default DashboardDefault;
+
+// import { useState } from 'react';
+// import { Grid, MenuItem, Stack, TextField, Typography } from '@mui/material';
+
+// // Import UserDetailsCard component here
+// import UserDetailsCard from './UserDetailsCard';
+
+// // ...
+
+// // ==============================|| DASHBOARD - DEFAULT ||============================== //
+
+// const DashboardDefault = () => {
+//   const [value, setValue] = useState('today');
+//   const [slot, setSlot] = useState('week');
+
+//   return (
+//     <Grid container rowSpacing={4.5} columnSpacing={2.75}>
+//       {/* row 1 */}
+//       <Grid item xs={12} sx={{ mb: -2.25 }}>
+//         <Typography variant="h5">Dashboard</Typography>
+//       </Grid>
+
+//       {/* Include UserDetailsCard component here */}
+//       <Grid item xs={12} sm={6} md={4} lg={3}>
+//         <UserDetailsCard />
+//       </Grid>
+
+//       {/* Rest of your dashboard content */}
+//     </Grid>
+//   );
+// };
+
+// export default DashboardDefault;
