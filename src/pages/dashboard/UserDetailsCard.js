@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardContent, Typography, IconButton, Grid } from '@mui/material';
 import { CancelOutlined as CancelIcon, CalendarTodayOutlined as CalendarIcon } from '@mui/icons-material';
 
-const Overview = () => {
+const UserDetailsCard = () => {
   return (
     <Card>
       {/* Card Header */}
@@ -72,4 +72,4 @@ const Overview = () => {
   );
 };
 
-export default Overview;
+export default UserDetailsCard;
